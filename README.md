@@ -4,6 +4,8 @@ Savvy Insert allows users to quickly and easily find savings on their existing i
 
 Your website or mobile app can easily embed the "Savvy Insert" so that users can find these savings without ever navigating off your property.
 
+![""](/screenshot.png?raw=true)
+
 ## Basic Usage
 
 ```html
