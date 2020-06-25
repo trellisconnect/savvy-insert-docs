@@ -14,7 +14,28 @@ Your website or mobile app can easily embed the "Savvy Insert" so that users can
     <script src="https://cdn.savvy.insure/insert/v1.0/savvy-insert.js"></script>
   </head>
   <body>
-    <!-- Add the Savvy Insert div where you would like the widget to display in your page -->
+    <!-- Add the Savvy Insert element where you would like the widget to display in your page -->
+    <ins
+      data-savvy-insert
+      data-urlTrackingParams="REPLACE-THIS-WITH-STRING-FROM-SAVVY"
+    ></ins>
+  </body>
+</html>
+```
+
+## Advanced Usage
+
+To brand the insert and the modal using your logo, add your Trellis Client ID as a data parameter.
+
+```html
+<html>
+  <head>
+    <title>Example HTML Page</title>
+    <!-- Add the Savvy Insert script tag-->
+    <script src="https://cdn.savvy.insure/insert/v1.0/savvy-insert.js"></script>
+  </head>
+  <body>
+    <!-- Add the Savvy Insert element where you would like the widget to display in your page -->
     <ins
       data-savvy-insert
       data-urlTrackingParams="REPLACE-THIS-WITH-STRING-FROM-SAVVY"
