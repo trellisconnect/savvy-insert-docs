@@ -1,8 +1,8 @@
 # Savvy Insert
 
-Savvy Insert allows users to quickly and easily find savings on their existing insurance.
+Savvy Insert allows your website's visitors to quickly and easily find savings on their existing insurance.
 
-Your website or mobile app can easily embed a prompt to find savings without navigating off your property.
+Simply embed Insert in relevant content, and your users can find savings without navigating off your property.
 
 <div style="max-width: 450px;margin:0 auto;">
 ![""](/screenshot.png?raw=true)
