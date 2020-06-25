@@ -26,23 +26,13 @@ Your website or mobile app can easily embed the "Savvy Insert" so that users can
 
 ## Advanced Usage
 
-To brand the insert and the modal using your logo, add your Trellis Client ID as a data parameter.
+Adding your Trellis Client ID as a data parameter will brand the insert and modal widget with your name and logo. It will also enable you to access your users' information via Trellis API.
 
 ```html
-<html>
-  <head>
-    <title>Example HTML Page</title>
-    <!-- Add the Savvy Insert script tag-->
-    <script src="https://cdn.savvy.insure/insert/v1.0/savvy-insert.js"></script>
-  </head>
-  <body>
-    <!-- Add the Savvy Insert element where you would like the widget to display in your page -->
     <ins
       data-savvy-insert
       data-urlTrackingParams="REPLACE-THIS-WITH-STRING-FROM-SAVVY"
       data-trellisClientId="YOUR-TRELLIS-CLIENT-ID"
       style="display:inline-block;width:608px;height:329px;"
     ></ins>
-  </body>
-</html>
 ```
