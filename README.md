@@ -5,7 +5,7 @@ Savvy Insert allows your website's visitors to quickly and easily find savings o
 Simply embed Insert in relevant content, and your users can find savings without navigating off your property.
 
 <div style="max-width: 450px;margin:0 auto;">
-![""](/screenshot.png?raw=true)
+  <img src="screenshot.png" alt="" />
 </div>
 
 ## Basic Usage
