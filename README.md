@@ -18,6 +18,7 @@ Your website or mobile app can easily embed the "Savvy Insert" so that users can
     <ins
       data-savvy-insert
       data-urlTrackingParams="REPLACE-THIS-WITH-STRING-FROM-SAVVY"
+      style="display:inline-block;width:608px;height:329px;"
     ></ins>
   </body>
 </html>
@@ -40,6 +41,7 @@ To brand the insert and the modal using your logo, add your Trellis Client ID as
       data-savvy-insert
       data-urlTrackingParams="REPLACE-THIS-WITH-STRING-FROM-SAVVY"
       data-trellisClientId="YOUR-TRELLIS-CLIENT-ID"
+      style="display:inline-block;width:608px;height:329px;"
     ></ins>
   </body>
 </html>
