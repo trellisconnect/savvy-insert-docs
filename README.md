@@ -4,7 +4,7 @@ Savvy Insert allows users to quickly and easily find savings on their existing i
 
 Your website or mobile app can easily embed a prompt to find savings without navigating off your property.
 
-![""](/screenshot.png?raw=true)
+![""](/insert-screenshot.png?raw=true)
 
 ## Basic Usage
 
