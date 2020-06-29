@@ -12,8 +12,6 @@ Your website or mobile app can easily embed a prompt to find savings without nav
 <html>
   <head>
     <title>Example HTML Page</title>
-    <!-- Add the Savvy Insert script tag-->
-    <script src="https://cdn.savvy.insure/insert/v1.0/savvy-insert.js"></script>
   </head>
   <body>
     <!-- Add the Savvy Insert element where you would like the widget to display in your page -->
@@ -22,6 +20,11 @@ Your website or mobile app can easily embed a prompt to find savings without nav
       data-url-tracking-params="REPLACE-THIS-WITH-STRING-FROM-SAVVY"
       style="display:inline-block;width:608px;height:329px;"
     ></ins>
+    <!-- Add the Savvy Insert script tag-->
+    <script
+      src="https://cdn.savvy.insure/insert/v1.0/savvy-insert.js"
+      async
+    ></script>
   </body>
 </html>
 ```
