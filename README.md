@@ -10,9 +10,6 @@ Your website or mobile app can easily embed a prompt to find savings without nav
 
 ```html
 <html>
-  <head>
-    <title>Example HTML Page</title>
-  </head>
   <body>
     <!-- Add the Savvy Insert element where you would like the widget to display in your page -->
     <ins
