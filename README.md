@@ -41,4 +41,4 @@ Adding your Trellis Client ID as a data parameter will brand the insert and moda
 
 ## Design Considerations
 
-The Savvy Insert is designed to be responsive by default and should "just work" in your primary content area. In order to display optimally it should be at least 300px wide.
+The Savvy Insert has two sizes currently, 608 width x 392 height, and 345 width x 318 height. It will resize itself according to how much space is available for the insert.
