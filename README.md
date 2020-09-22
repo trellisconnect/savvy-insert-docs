@@ -41,11 +41,12 @@ Adding your Trellis Client ID as a data parameter will brand the insert and moda
 
 ## AMP Usage
 
-```
+```html
 <!doctype html>
 <html ⚡>
 <head>
   <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+</head>
 <body>  
   <amp-script layout="container" src="https://cdn.savvy.insure/insert/v1.0/savvy-insert.js">
     <ins
