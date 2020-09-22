@@ -39,6 +39,26 @@ Adding your Trellis Client ID as a data parameter will brand the insert and moda
 ></ins>
 ```
 
+## AMP Usage
+
+```
+<!doctype html>
+<html ⚡>
+<head>
+  <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+<body>  
+  <amp-script layout="container" src="https://cdn.savvy.insure/insert/v1.0/savvy-insert.js">
+    <ins
+      class="savvyinsert"
+      data-url-tracking-params="REPLACE-THIS-WITH-STRING-FROM-SAVVY"
+      data-trellis-client-id="YOUR-TRELLIS-CLIENT-ID"
+      style="display:inline-block;width:608px;height:329px;"
+    ></ins>
+  </amp-script>
+</body>
+</html>
+```
+
 ## Design Considerations
 
 The Savvy Insert has two sizes currently, 608 width x 392 height, and 345 width x 318 height. It will resize itself according to how much space is available for the insert.
