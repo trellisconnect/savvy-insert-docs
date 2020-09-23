@@ -41,6 +41,8 @@ Adding your Trellis Client ID as a data parameter will brand the insert and moda
 
 ## AMP Usage
 
+The Savvy Insert relies on the `<amp-iframe>` element for AMP pages. [Read more](https://amp.dev/documentation/components/amp-iframe/).
+
 ```html
 <!DOCTYPE html>
 <html ⚡ lang="en">
@@ -51,17 +53,31 @@ Adding your Trellis Client ID as a data parameter will brand the insert and moda
       content="width=device-width,minimum-scale=1,initial-scale=1"
     />
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <!-- Load the AMP Iframe -->
+    <script
+      async
+      custom-element="amp-iframe"
+      src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+    ></script>
     <link rel="canonical" href="..." />
   </head>
   <body>
     <!-- Load the Savvy Insert AMP page where you would like it to display -->
-    <iframe
+    <amp-iframe
       src="https://cdn.savvy.insure/insert/v1.0/amp.html"
       frameborder="0"
-      data-url-tracking-params="REPLACE-THIS-WITH-STRING-FROM-SAVVY"
+      data-url-tracking-params="YOUR_STRING_FROM_SAVVY"
+      data-insert-theme="money"
       width="351"
       height="369"
-    ></iframe>
+      sandbox="allow-scripts allow-same-origin"
+    >
+      <amp-img
+        layout="fill"
+        src="https://via.placeholder.com/351x369"
+        placeholder
+      ></amp-img>
+    </amp-iframe>
     <!-- -->
   </body>
 </html>
