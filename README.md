@@ -58,7 +58,6 @@ Adding your Trellis Client ID as a data parameter will brand the insert and moda
       src="https://cdn.savvy.insure/insert/v1.0/amp.html"
       frameborder="0"
       data-url-tracking-params="YOUR_STRING_FROM_SAVVY"
-      data-insert-theme="money"
       width="351"
       height="369"
     ></iframe>
