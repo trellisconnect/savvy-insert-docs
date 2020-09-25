@@ -43,6 +43,8 @@ Adding your Trellis Client ID as a data parameter will brand the insert and moda
 
 The Savvy Insert relies on the `<amp-iframe>` element for AMP pages. [Read more](https://amp.dev/documentation/components/amp-iframe/).
 
+Note: You will need to pass the URL Tracking Params as url parameters instead of data attributes.
+
 ```html
 <!DOCTYPE html>
 <html ⚡ lang="en">
@@ -70,6 +72,7 @@ The Savvy Insert relies on the `<amp-iframe>` element for AMP pages. [Read more]
       height="369"
       sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation"
     >
+      <!-- your placeholder image while the insert iframe loads -->
       <amp-img
         layout="fill"
         src="https://via.placeholder.com/351x369"
