@@ -64,13 +64,11 @@ The Savvy Insert relies on the `<amp-iframe>` element for AMP pages. [Read more]
   <body>
     <!-- Load the Savvy Insert AMP page where you would like it to display -->
     <amp-iframe
-      src="https://cdn.savvy.insure/insert/v1.0/amp.html"
+      src="https://cdn.savvy.insure/insert/v1.0/amp.html?urlTrackingParams=REPLACE-THIS-WITH-STRING-FROM-SAVVY&trellisClientId=YOUR-TRELLIS-CLIENT-ID"
       frameborder="0"
-      data-url-tracking-params="YOUR_STRING_FROM_SAVVY"
-      data-insert-theme="money"
       width="351"
       height="369"
-      sandbox="allow-scripts allow-same-origin"
+      sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation"
     >
       <amp-img
         layout="fill"
