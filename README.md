@@ -51,7 +51,7 @@ export default function MyComponent() {
     const script = document.createElement('script');
     script.src = 'https://cdn.savvy.insure/insert/v1.0/savvy-insert.js';
     script.async = true;
-    document.head.appendChild(script);
+    document.body.appendChild(script);
   }, []);
 
   return (
