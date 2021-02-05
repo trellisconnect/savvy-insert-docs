@@ -39,6 +39,38 @@ Adding your Trellis Client ID as a data parameter will brand the insert and moda
 ></ins>
 ```
 
+## React Usage
+
+Below is an example of using the Savvy Insert in a React application.
+
+```tsx
+import * as React from 'react';
+
+export default function MyComponent() {
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.savvy.insure/insert/v1.0/savvy-insert.js';
+    script.async = true;
+    document.head.appendChild(script);
+  }, []);
+
+  return (
+    <div>
+      <ins
+        className="savvyinsert"
+        data-url-tracking-params="REPLACE-THIS-WITH-STRING-FROM-SAVVY"
+        data-trellis-client-id="YOUR-TRELLIS-CLIENT-ID"
+        style={{
+          display: 'inline-block',
+          width: 680,
+          height: 329,
+        }}
+      />
+    </div>
+  );
+}
+```
+
 ## AMP Usage
 
 The Savvy Insert relies on the `<amp-iframe>` element for AMP pages. [Read more](https://amp.dev/documentation/components/amp-iframe/).
