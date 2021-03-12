@@ -26,6 +26,12 @@ Your website or mobile app can easily embed a prompt to find savings without nav
 </html>
 ```
 
+## Attribution & Tracking
+
+In order to get credit for your usage, you MUST set `data-url-tracking-params` to the value assigned by your partner success manager.
+
+See https://docs.google.com/document/d/1GF1yxu8BMfpK30EJ4AJZ3lhVuX_6Ae0Cdi2LPXAiAqY for more information.
+
 ## Advanced Usage
 
 Adding your Trellis Client ID as a data parameter will brand the insert and modal widget with your name and logo. It will also enable you to access your users' information via Trellis API.
